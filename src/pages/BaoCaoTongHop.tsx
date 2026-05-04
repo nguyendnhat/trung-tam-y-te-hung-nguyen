@@ -241,7 +241,7 @@ export function BaoCaoTongHop() {
       .eq('nam', nam)
       .order('username')
     setLoading(false)
-    setRows((data as DataRow[]) || [])
+    setRows((data as unknown as DataRow[]) || [])
     setLoaded(true)
   }
 
