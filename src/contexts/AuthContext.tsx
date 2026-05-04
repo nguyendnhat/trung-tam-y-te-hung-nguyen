@@ -2,11 +2,12 @@ import { createContext, useContext, useState, useEffect, type ReactNode } from '
 
 interface User {
   username: string
+  fullname: string
 }
 
 interface AuthContextType {
   user: User | null
-  login: (username: string) => void
+  login: (username: string, fullname: string) => void
   logout: () => void
   isAuthenticated: boolean
 }
@@ -29,7 +30,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [user])
 
-  const login = (username: string) => setUser({ username })
+  const login = (username: string, fullname: string) => setUser({ username, fullname })
 
   const logout = () => setUser(null)
 

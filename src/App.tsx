@@ -4,6 +4,7 @@ import { ProtectedRoute, PublicOnlyRoute } from './components/ProtectedRoute'
 import { LoginPage } from './pages/LoginPage'
 import { LogoutPage } from './pages/LogoutPage'
 import { HomePage } from './pages/HomePage'
+import { BaoCaoHoatDongTram } from './pages/BaoCaoHoatDongTram'
 
 function App() {
   return (
@@ -24,6 +25,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <HomePage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/bao-cao-hoat-dong-tram"
+            element={
+              <ProtectedRoute>
+                <BaoCaoHoatDongTram />
               </ProtectedRoute>
             }
           />

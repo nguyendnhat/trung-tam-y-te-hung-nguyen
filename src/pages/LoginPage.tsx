@@ -18,7 +18,7 @@ export function LoginPage() {
 
     const { data, error: dbError } = await supabase
       .rpc('check_login', { p_username: username, p_password: password })
-      .maybeSingle() as { data: { username: string } | null; error: unknown }
+      .maybeSingle() as { data: { username: string; fullname: string } | null; error: unknown }
 
     setLoading(false)
 
@@ -32,7 +32,7 @@ export function LoginPage() {
       return
     }
 
-    login(data.username)
+    login(data.username, data.fullname ?? '')
     navigate('/', { replace: true })
   }
 
