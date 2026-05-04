@@ -5,6 +5,7 @@ import { LoginPage } from './pages/LoginPage'
 import { LogoutPage } from './pages/LogoutPage'
 import { HomePage } from './pages/HomePage'
 import { BaoCaoHoatDongTram } from './pages/BaoCaoHoatDongTram'
+import { BaoCaoTongHop } from './pages/BaoCaoTongHop'
 
 function App() {
   return (
@@ -33,6 +34,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <BaoCaoHoatDongTram />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/bao-cao-tong-hop"
+            element={
+              <ProtectedRoute>
+                <BaoCaoTongHop />
               </ProtectedRoute>
             }
           />

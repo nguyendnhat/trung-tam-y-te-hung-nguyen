@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
@@ -149,9 +149,13 @@ export function BaoCaoHoatDongTram() {
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [locked, setLocked] = useState(false)
+  const [dirty, setDirty] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const saveRef = useRef<() => Promise<void>>(async () => {})
 
   const fetchData = useCallback(async () => {
+    if (timerRef.current) clearTimeout(timerRef.current)
     setLoading(true)
     setMessage(null)
     const { data } = await supabase
@@ -162,6 +166,7 @@ export function BaoCaoHoatDongTram() {
       .eq('nam', nam)
       .maybeSingle()
     setLoading(false)
+    setDirty(false)
     if (data) {
       setLocked(data.lockedit === true)
       setForm(
@@ -181,6 +186,7 @@ export function BaoCaoHoatDongTram() {
 
   const handleChange = (field: keyof FormData, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }))
+    setDirty(true)
   }
 
   const handleSave = async () => {
@@ -201,12 +207,23 @@ export function BaoCaoHoatDongTram() {
       .from('hoat_dong_tram_of_thang')
       .upsert(payload, { onConflict: 'username,thang,nam' })
     setSaving(false)
+    if (!error) setDirty(false)
     setMessage(
       error
         ? { type: 'error', text: 'Lưu thất bại: ' + error.message }
         : { type: 'success', text: 'Đã lưu thành công!' }
     )
   }
+
+  saveRef.current = handleSave
+
+  // Auto-save 1.5s after user stops editing
+  useEffect(() => {
+    if (!dirty || locked) return
+    if (timerRef.current) clearTimeout(timerRef.current)
+    timerRef.current = setTimeout(() => { saveRef.current() }, 1500)
+    return () => { if (timerRef.current) clearTimeout(timerRef.current) }
+  }, [form, dirty, locked]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const renderInput = (field: keyof FormData, isTextarea?: boolean) => {
     if (isTextarea) {
@@ -345,7 +362,11 @@ export function BaoCaoHoatDongTram() {
           </p>
         )}
 
-        <button onClick={handleSave} disabled={saving || locked} style={locked ? { ...s.saveBtn, ...s.saveBtnLocked } : s.saveBtn}>
+        <button
+          onClick={handleSave}
+          disabled={!dirty || saving || locked}
+          style={(!dirty || locked) ? { ...s.saveBtn, ...s.saveBtnLocked } : s.saveBtn}
+        >
           {saving ? 'Đang lưu...' : 'Lưu báo cáo'}
         </button>
       </div>

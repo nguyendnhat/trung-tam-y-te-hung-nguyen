@@ -1,18 +1,27 @@
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 
-const cards = [
+const allCards = [
   {
     path: '/bao-cao-hoat-dong-tram',
-    label: 'Báo cáo hoạt động trạm',
+    label: 'Báo cáo hoạt động hằng tháng của trạm',
     color: '#1a73e8',
     initial: 'BC',
+    roles: null,
+  },
+  {
+    path: '/bao-cao-tong-hop',
+    label: 'Báo cáo tổng hợp',
+    color: '#2e7d32',
+    initial: 'TH',
+    roles: ['tonghop'],
   },
 ]
 
 export function HomePage() {
   const { user } = useAuth()
   const navigate = useNavigate()
+  const cards = allCards.filter(c => !c.roles || c.roles.includes(user?.username ?? ''))
 
   return (
     <div style={s.page}>
