@@ -18,7 +18,7 @@ export function LoginPage() {
 
     const { data, error: dbError } = await supabase
       .rpc('check_login', { p_username: username, p_password: password })
-      .maybeSingle()
+      .maybeSingle() as { data: { username: string } | null; error: unknown }
 
     setLoading(false)
 
