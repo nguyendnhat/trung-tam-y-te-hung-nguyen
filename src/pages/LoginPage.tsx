@@ -1,15 +1,35 @@
-import { useState, type FormEvent } from 'react'
+import { useState, useEffect, useRef, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
+
+type UserItem = { username: string; fullname: string }
 
 export function LoginPage() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [users, setUsers] = useState<UserItem[]>([])
+  const passwordRef = useRef<HTMLInputElement>(null)
   const { login } = useAuth()
   const navigate = useNavigate()
+
+  useEffect(() => {
+    supabase
+      .from('users')
+      .select('username, fullname')
+      .order('fullname')
+      .then(({ data }) => {
+        if (data) setUsers(data as UserItem[])
+      })
+  }, [])
+
+  const handleSelectUser = (u: UserItem) => {
+    setUsername(u.username)
+    setError('')
+    passwordRef.current?.focus()
+  }
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -37,34 +57,55 @@ export function LoginPage() {
   }
 
   return (
-    <div style={styles.container}>
-      <div style={styles.card}>
-        <h1 style={styles.title}>Đăng nhập</h1>
-        <form onSubmit={handleSubmit} style={styles.form}>
-          <div style={styles.field}>
-            <label style={styles.label}>Tên đăng nhập</label>
+    <div style={s.page}>
+      {/* Danh sách tài khoản - cố định bên trái */}
+      {users.length > 0 && (
+        <div style={s.userListCard}>
+          <h2 style={s.userListTitle}>Chọn tài khoản</h2>
+          <div style={s.userList}>
+            {users.map((u) => (
+              <div
+                key={u.username}
+                onClick={() => handleSelectUser(u)}
+                style={username === u.username ? { ...s.userItem, ...s.userItemActive } : s.userItem}
+              >
+                <span style={s.userFullname}>{u.fullname || u.username}</span>
+                <span style={s.userUsername}>{u.username}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Form đăng nhập - luôn ở giữa trang */}
+      <div style={s.card}>
+        <h1 style={s.title}>Đăng nhập</h1>
+        <form onSubmit={handleSubmit} style={s.form}>
+          <div style={s.field}>
+            <label style={s.label}>Tên đăng nhập</label>
             <input
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
               autoComplete="username"
-              style={styles.input}
+              style={s.input}
             />
           </div>
-          <div style={styles.field}>
-            <label style={styles.label}>Mật khẩu</label>
+          <div style={s.field}>
+            <label style={s.label}>Mật khẩu</label>
             <input
+              ref={passwordRef}
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
               autoComplete="current-password"
-              style={styles.input}
+              style={s.input}
             />
           </div>
-          {error && <p style={styles.error}>{error}</p>}
-          <button type="submit" disabled={loading} style={styles.button}>
+          {error && <p style={s.error}>{error}</p>}
+          <button type="submit" disabled={loading} style={s.button}>
             {loading ? 'Đang đăng nhập...' : 'Đăng nhập'}
           </button>
         </form>
@@ -73,13 +114,15 @@ export function LoginPage() {
   )
 }
 
-const styles: Record<string, React.CSSProperties> = {
-  container: {
+const s: Record<string, React.CSSProperties> = {
+  page: {
     minHeight: '100vh',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     background: '#f0f2f5',
+    position: 'relative',
+    padding: '2rem',
   },
   card: {
     background: '#ffffff',
@@ -134,5 +177,55 @@ const styles: Record<string, React.CSSProperties> = {
     fontSize: '1rem',
     fontWeight: 600,
     cursor: 'pointer',
+  },
+  userListCard: {
+    position: 'absolute',
+    left: '2rem',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    background: '#ffffff',
+    borderRadius: '12px',
+    padding: '1.25rem',
+    width: '240px',
+    maxHeight: '80vh',
+    boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  userListTitle: {
+    margin: '0 0 0.8rem',
+    fontSize: '0.95rem',
+    fontWeight: 600,
+    color: '#1a1a2e',
+  },
+  userList: {
+    overflowY: 'auto',
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '0.35rem',
+  },
+  userItem: {
+    padding: '0.55rem 0.7rem',
+    borderRadius: '7px',
+    border: '1px solid #eee',
+    cursor: 'pointer',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '0.1rem',
+    background: '#fafafa',
+  },
+  userItemActive: {
+    background: '#e8f0fe',
+    border: '1px solid #1a73e8',
+  },
+  userFullname: {
+    fontSize: '0.9rem',
+    fontWeight: 600,
+    color: '#1a1a2e',
+  },
+  userUsername: {
+    fontSize: '0.78rem',
+    color: '#888',
   },
 }
