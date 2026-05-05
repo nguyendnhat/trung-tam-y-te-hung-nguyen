@@ -150,8 +150,11 @@ export function BaoCaoHoatDongTram() {
   const [saving, setSaving] = useState(false)
   const [locked, setLocked] = useState(false)
   const [dirty, setDirty] = useState(false)
+  const [dirtyFields, setDirtyFields] = useState<Set<string>>(new Set())
+  const [savedFields, setSavedFields] = useState<Set<string>>(new Set())
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const flashTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const saveRef = useRef<() => Promise<void>>(async () => {})
 
   const fetchData = useCallback(async () => {
@@ -167,6 +170,8 @@ export function BaoCaoHoatDongTram() {
       .maybeSingle()
     setLoading(false)
     setDirty(false)
+    setDirtyFields(new Set())
+    setSavedFields(new Set())
     if (data) {
       setLocked(data.lockedit === true)
       setForm(
@@ -187,6 +192,7 @@ export function BaoCaoHoatDongTram() {
   const handleChange = (field: keyof FormData, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }))
     setDirty(true)
+    setDirtyFields((prev) => new Set([...prev, field]))
   }
 
   const handleSave = async () => {
@@ -207,7 +213,15 @@ export function BaoCaoHoatDongTram() {
       .from('hoat_dong_tram_of_thang')
       .upsert(payload, { onConflict: 'username,thang,nam' })
     setSaving(false)
-    if (!error) setDirty(false)
+    if (!error) {
+      setDirty(false)
+      setDirtyFields((pending) => {
+        setSavedFields(new Set(pending))
+        if (flashTimerRef.current) clearTimeout(flashTimerRef.current)
+        flashTimerRef.current = setTimeout(() => setSavedFields(new Set()), 1500)
+        return new Set()
+      })
+    }
     setMessage(
       error
         ? { type: 'error', text: 'Lưu thất bại: ' + error.message }
@@ -225,13 +239,20 @@ export function BaoCaoHoatDongTram() {
     return () => { if (timerRef.current) clearTimeout(timerRef.current) }
   }, [form, dirty, locked]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  const fieldStyle = (field: string, base: React.CSSProperties, lockedStyle: React.CSSProperties) => {
+    if (locked) return { ...base, ...lockedStyle }
+    if (savedFields.has(field)) return { ...base, background: '#e8f5e9', borderColor: '#4caf50', transition: 'background 0.4s, border-color 0.4s' }
+    if (dirtyFields.has(field)) return { ...base, background: '#fff8e1', borderColor: '#ffc107', transition: 'background 0.4s, border-color 0.4s' }
+    return base
+  }
+
   const renderInput = (field: keyof FormData, isTextarea?: boolean) => {
     if (isTextarea) {
       return (
         <textarea
           value={form[field]}
           onChange={(e) => handleChange(field, e.target.value)}
-          style={locked ? { ...s.textarea, ...s.textareaLocked } : s.textarea}
+          style={fieldStyle(field, s.textarea, s.textareaLocked)}
           disabled={locked}
           rows={3}
         />
@@ -242,7 +263,7 @@ export function BaoCaoHoatDongTram() {
         type="number"
         value={form[field]}
         onChange={(e) => handleChange(field, e.target.value)}
-        style={locked ? { ...s.input, ...s.inputLocked } : s.input}
+        style={fieldStyle(field, s.input, s.inputLocked)}
         min={0}
         disabled={locked}
       />
@@ -364,8 +385,8 @@ export function BaoCaoHoatDongTram() {
 
         <button
           onClick={handleSave}
-          disabled={!dirty || saving || locked}
-          style={(!dirty || locked) ? { ...s.saveBtn, ...s.saveBtnLocked } : s.saveBtn}
+          disabled={saving || locked}
+          style={locked ? { ...s.saveBtn, ...s.saveBtnLocked } : s.saveBtn}
         >
           {saving ? 'Đang lưu...' : 'Lưu báo cáo'}
         </button>

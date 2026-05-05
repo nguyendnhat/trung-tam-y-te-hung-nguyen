@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, type FormEvent } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
@@ -6,12 +6,8 @@ import { useAuth } from '../contexts/AuthContext'
 type UserItem = { username: string; fullname: string }
 
 export function LoginPage() {
-  const [username, setUsername] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(false)
   const [users, setUsers] = useState<UserItem[]>([])
-  const passwordRef = useRef<HTMLInputElement>(null)
+  const [loading, setLoading] = useState(true)
   const { login } = useAuth()
   const navigate = useNavigate()
 
@@ -22,93 +18,35 @@ export function LoginPage() {
       .order('fullname')
       .then(({ data }) => {
         if (data) setUsers(data as UserItem[])
+        setLoading(false)
       })
   }, [])
 
-  const handleSelectUser = (u: UserItem) => {
-    setUsername(u.username)
-    setError('')
-    passwordRef.current?.focus()
-  }
-
-  const handleSubmit = async (e: FormEvent) => {
-    e.preventDefault()
-    setError('')
-    setLoading(true)
-
-    const { data, error: dbError } = await supabase
-      .rpc('check_login', { p_username: username, p_password: password })
-      .maybeSingle() as { data: { username: string; fullname: string } | null; error: unknown }
-
-    setLoading(false)
-
-    if (dbError) {
-      setError('Đã có lỗi xảy ra. Vui lòng thử lại.')
-      return
-    }
-
-    if (!data) {
-      setError('Tên đăng nhập hoặc mật khẩu không đúng.')
-      return
-    }
-
-    login(data.username, data.fullname ?? '')
+  const handleSelect = (u: UserItem) => {
+    login(u.username, u.fullname ?? '')
     navigate('/', { replace: true })
   }
 
   return (
     <div style={s.page}>
-      {/* Danh sách tài khoản - cố định bên trái */}
-      {users.length > 0 && (
-        <div style={s.userListCard}>
-          <h2 style={s.userListTitle}>Chọn tài khoản</h2>
-          <div style={s.userList}>
+      <div style={s.card}>
+        <h1 style={s.title}>Hệ thống quản lý trạm y tế</h1>
+        <p style={s.subtitle}>Chọn tài khoản để đăng nhập</p>
+        {loading ? (
+          <p style={s.loading}>Đang tải...</p>
+        ) : (
+          <div style={s.list}>
             {users.map((u) => (
-              <div
-                key={u.username}
-                onClick={() => handleSelectUser(u)}
-                style={username === u.username ? { ...s.userItem, ...s.userItemActive } : s.userItem}
-              >
-                <span style={s.userFullname}>{u.fullname || u.username}</span>
-                <span style={s.userUsername}>{u.username}</span>
+              <div key={u.username} style={s.userItem} onClick={() => handleSelect(u)}>
+                <div style={s.avatar}>{(u.fullname || u.username).charAt(0).toUpperCase()}</div>
+                <div style={s.userInfo}>
+                  <span style={s.fullname}>{u.fullname || u.username}</span>
+                  <span style={s.username}>{u.username}</span>
+                </div>
               </div>
             ))}
           </div>
-        </div>
-      )}
-
-      {/* Form đăng nhập - luôn ở giữa trang */}
-      <div style={s.card}>
-        <h1 style={s.title}>Đăng nhập</h1>
-        <form onSubmit={handleSubmit} style={s.form}>
-          <div style={s.field}>
-            <label style={s.label}>Tên đăng nhập</label>
-            <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
-              autoComplete="username"
-              style={s.input}
-            />
-          </div>
-          <div style={s.field}>
-            <label style={s.label}>Mật khẩu</label>
-            <input
-              ref={passwordRef}
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              autoComplete="current-password"
-              style={s.input}
-            />
-          </div>
-          {error && <p style={s.error}>{error}</p>}
-          <button type="submit" disabled={loading} style={s.button}>
-            {loading ? 'Đang đăng nhập...' : 'Đăng nhập'}
-          </button>
-        </form>
+        )}
       </div>
     </div>
   )
@@ -117,115 +55,79 @@ export function LoginPage() {
 const s: Record<string, React.CSSProperties> = {
   page: {
     minHeight: '100vh',
+    background: '#f0f2f5',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#f0f2f5',
-    position: 'relative',
     padding: '2rem',
   },
   card: {
-    background: '#ffffff',
-    borderRadius: '12px',
+    background: '#fff',
+    borderRadius: '16px',
     padding: '2.5rem',
     width: '100%',
-    maxWidth: '380px',
+    maxWidth: '480px',
     boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
   },
   title: {
-    margin: '0 0 1.5rem',
-    fontSize: '1.6rem',
+    margin: '0 0 0.4rem',
+    fontSize: '1.3rem',
+    fontWeight: 700,
+    color: '#1a1a2e',
     textAlign: 'center',
-    color: '#1a1a2e',
   },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '1rem',
-  },
-  field: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.4rem',
-  },
-  label: {
+  subtitle: {
+    margin: '0 0 1.8rem',
     fontSize: '0.9rem',
-    color: '#444',
-    fontWeight: 500,
+    color: '#888',
+    textAlign: 'center',
   },
-  input: {
-    padding: '0.65rem 0.9rem',
-    borderRadius: '6px',
-    border: '1px solid #ccc',
-    background: '#fff',
-    color: '#1a1a2e',
-    fontSize: '1rem',
-    outline: 'none',
+  loading: {
+    textAlign: 'center',
+    color: '#888',
+    fontSize: '0.9rem',
   },
-  error: {
-    color: '#d32f2f',
-    fontSize: '0.875rem',
-    margin: 0,
-  },
-  button: {
-    marginTop: '0.5rem',
-    padding: '0.75rem',
-    borderRadius: '8px',
-    border: 'none',
-    background: '#aa3bff',
-    color: '#fff',
-    fontSize: '1rem',
-    fontWeight: 600,
-    cursor: 'pointer',
-  },
-  userListCard: {
-    position: 'absolute',
-    left: '2rem',
-    top: '50%',
-    transform: 'translateY(-50%)',
-    background: '#ffffff',
-    borderRadius: '12px',
-    padding: '1.25rem',
-    width: '240px',
-    maxHeight: '80vh',
-    boxShadow: '0 4px 24px rgba(0,0,0,0.12)',
+  list: {
     display: 'flex',
     flexDirection: 'column',
+    gap: '0.6rem',
   },
-  userListTitle: {
-    margin: '0 0 0.8rem',
+  userItem: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '1rem',
+    padding: '0.8rem 1rem',
+    borderRadius: '10px',
+    border: '1px solid #e8e8e8',
+    background: '#fafafa',
+    cursor: 'pointer',
+    transition: 'background 0.15s, border-color 0.15s',
+  },
+  avatar: {
+    width: '42px',
+    height: '42px',
+    borderRadius: '50%',
+    background: '#1a73e8',
+    color: '#fff',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '1.1rem',
+    fontWeight: 700,
+    flexShrink: 0,
+  },
+  userInfo: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '0.15rem',
+  },
+  fullname: {
     fontSize: '0.95rem',
     fontWeight: 600,
     color: '#1a1a2e',
   },
-  userList: {
-    overflowY: 'auto',
-    flex: 1,
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.35rem',
-  },
-  userItem: {
-    padding: '0.55rem 0.7rem',
-    borderRadius: '7px',
-    border: '1px solid #eee',
-    cursor: 'pointer',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.1rem',
-    background: '#fafafa',
-  },
-  userItemActive: {
-    background: '#e8f0fe',
-    border: '1px solid #1a73e8',
-  },
-  userFullname: {
-    fontSize: '0.9rem',
-    fontWeight: 600,
-    color: '#1a1a2e',
-  },
-  userUsername: {
-    fontSize: '0.78rem',
+  username: {
+    fontSize: '0.8rem',
     color: '#888',
   },
 }
