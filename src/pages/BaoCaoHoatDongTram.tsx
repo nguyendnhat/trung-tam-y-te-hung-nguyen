@@ -138,13 +138,15 @@ const rows: RowDef[] = [
 ]
 
 const now = new Date()
+const defaultThang = now.getMonth() === 0 ? 12 : now.getMonth()
+const defaultNam = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear()
 const toNum = (val: string) => (val === '' ? null : Number(val))
 
 export function BaoCaoHoatDongTram() {
   const { user } = useAuth()
   const navigate = useNavigate()
-  const [thang, setThang] = useState(now.getMonth() + 1)
-  const [nam, setNam] = useState(now.getFullYear())
+  const [thang, setThang] = useState(defaultThang)
+  const [nam, setNam] = useState(defaultNam)
   const [form, setForm] = useState<FormData>(emptyForm)
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
