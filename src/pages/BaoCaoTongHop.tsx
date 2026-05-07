@@ -261,6 +261,51 @@ export function BaoCaoTongHop() {
   const colTotal = (field: string) =>
     rows.reduce((sum, row) => sum + (Number(row[field]) || 0), 0)
 
+  const handleExportExcel = () => {
+    const esc = (v: string) => v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    const strCell = (v: string) => `<Cell><Data ss:Type="String">${esc(v)}</Data></Cell>`
+    const numCell = (v: number) => `<Cell><Data ss:Type="Number">${v}</Data></Cell>`
+
+    const headerRow = ['STT', ...columns.map(c => c.label)]
+      .map(strCell).join('')
+
+    const dataRows = rows.map((row, i) => {
+      const cells = [strCell(String(i + 1))]
+      columns.forEach(col => {
+        const v = row[col.field]
+        if (col.isText) cells.push(strCell(v != null ? String(v) : ''))
+        else cells.push(numCell(Number(v) || 0))
+      })
+      return `<Row>${cells.join('')}</Row>`
+    }).join('')
+
+    const totalCells = [strCell('Tổng cộng')]
+    columns.forEach((col, i) => {
+      if (i === 0) totalCells.push(strCell(''))
+      else totalCells.push(numCell(colTotal(col.field)))
+    })
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <Worksheet ss:Name="BaoCao">
+    <Table>
+      <Row><Cell ss:MergeAcross="${headerRow.split('<Cell>').length - 2}"><Data ss:Type="String">Báo cáo tổng hợp - Tháng ${thang}/${nam}</Data></Cell></Row>
+      <Row>${headerRow}</Row>
+      ${dataRows}
+      <Row>${totalCells.join('')}</Row>
+    </Table>
+  </Worksheet>
+</Workbook>`
+
+    const blob = new Blob([xml], { type: 'application/vnd.ms-excel;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `bao-cao-tong-hop-thang-${thang}-${nam}.xls`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
   return (
     <div style={{ minHeight: '100vh', background: '#f0f2f5' }}>
       {/* Header */}
@@ -285,6 +330,11 @@ export function BaoCaoTongHop() {
           <button onClick={handleLoad} disabled={loading} style={{ padding: '0.5rem 1.5rem', background: '#1a73e8', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 600, fontSize: '0.95rem' }}>
             {loading ? 'Đang tải...' : 'Xem báo cáo'}
           </button>
+          {loaded && rows.length > 0 && (
+            <button onClick={handleExportExcel} style={{ padding: '0.5rem 1.2rem', background: '#2e7d32', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 600, fontSize: '0.95rem' }}>
+              Tải Excel
+            </button>
+          )}
           {detailLoading && <span style={{ fontSize: '0.85rem', color: '#888' }}>Đang tải chi tiết...</span>}
         </div>
 
