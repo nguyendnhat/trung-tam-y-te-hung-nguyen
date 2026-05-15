@@ -6,6 +6,7 @@ import { LogoutPage } from './pages/LogoutPage'
 import { HomePage } from './pages/HomePage'
 import { BaoCaoHoatDongTram } from './pages/BaoCaoHoatDongTram'
 import { BaoCaoTongHop } from './pages/BaoCaoTongHop'
+import { CccdPage } from './pages/CccdPage'
 
 function App() {
   return (
@@ -42,6 +43,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <BaoCaoTongHop />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/cccd"
+            element={
+              <ProtectedRoute>
+                <CccdPage />
               </ProtectedRoute>
             }
           />

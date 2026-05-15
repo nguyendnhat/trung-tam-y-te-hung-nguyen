@@ -16,6 +16,13 @@ const allCards = [
     initial: 'TH',
     roles: ['tonghop'],
   },
+  {
+    path: '/cccd',
+    label: 'Danh sách bệnh nhân',
+    color: '#7b1fa2',
+    initial: 'BN',
+    roles: null,
+  },
 ]
 
 export function HomePage() {
