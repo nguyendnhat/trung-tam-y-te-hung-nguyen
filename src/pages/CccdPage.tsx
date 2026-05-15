@@ -1,6 +1,85 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
+import hanhChinhRaw from '../lib/quydoihanhchinh.json'
+
+// ─── Địa giới hành chính ──────────────────────────────────────────────────────
+
+interface HanhChinhRecord {
+  CODE: string
+  TinhCu: string
+  HuyenCu: string
+  XaCu: string
+  ThonCu: string
+  TinhMoi: string
+  XaMoi: string
+  ThonMoi: string
+}
+
+interface NewAddressResult {
+  tinhCu: string
+  huyenCu: string
+  xaCu: string
+  thonCu?: string
+  tinhMoi?: string
+  xaMoi?: string
+  thonMoi?: string
+  isConverted: boolean
+}
+
+const hanhChinhList = hanhChinhRaw as HanhChinhRecord[]
+
+function norm(s: string): string {
+  return s?.trim().toLowerCase()
+}
+
+function parseAddressParts(address: string) {
+  const parts = address.split(',').map(p => p.trim()).filter(Boolean)
+  const n = parts.length
+  if (n < 3) return null
+  return {
+    tinh: parts[n - 1],
+    huyen: parts[n - 2],
+    xa: parts[n - 3],
+    thon: n >= 4 ? parts[n - 4] : '',
+  }
+}
+
+function lookupNewAddress(address: string | null): NewAddressResult | null {
+  if (!address) return null
+  const parsed = parseAddressParts(address)
+  if (!parsed) return null
+
+  const base = {
+    tinhCu: parsed.tinh,
+    huyenCu: parsed.huyen,
+    xaCu: parsed.xa,
+    thonCu: parsed.thon || undefined,
+  }
+
+  // Cách 1: Tìm theo TinhCu + HuyenCu + XaCu + ThonCu
+  if (parsed.thon) {
+    const m = hanhChinhList.find(r =>
+      norm(r.TinhCu) === norm(parsed.tinh) &&
+      norm(r.HuyenCu) === norm(parsed.huyen) &&
+      norm(r.XaCu) === norm(parsed.xa) &&
+      norm(r.ThonCu) === norm(parsed.thon)
+    )
+    if (m) return { ...base, tinhMoi: m.TinhMoi, xaMoi: m.XaMoi, thonMoi: m.ThonMoi, isConverted: true }
+  }
+
+  // Cách 2: Tìm theo TinhCu + HuyenCu + XaCu
+  const m2 = hanhChinhList.find(r =>
+    norm(r.TinhCu) === norm(parsed.tinh) &&
+    norm(r.HuyenCu) === norm(parsed.huyen) &&
+    norm(r.XaCu) === norm(parsed.xa)
+  )
+  if (m2) return { ...base, tinhMoi: m2.TinhMoi, xaMoi: m2.XaMoi, isConverted: true }
+
+  return { ...base, isConverted: false }
+}
+
+// ─── Supabase record ──────────────────────────────────────────────────────────
 
 interface CccdRecord {
   id: string
@@ -13,17 +92,16 @@ interface CccdRecord {
   created_at: string
 }
 
+// ─── Page ─────────────────────────────────────────────────────────────────────
+
 export function CccdPage() {
   const navigate = useNavigate()
   const [records, setRecords] = useState<CccdRecord[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  // key = `${recordId}-${fieldName}` để biết field nào đang được copy
   const [copiedKey, setCopiedKey] = useState<string | null>(null)
 
-  useEffect(() => {
-    fetchRecords()
-  }, [])
+  useEffect(() => { fetchRecords() }, [])
 
   async function fetchRecords() {
     setIsLoading(true)
@@ -32,11 +110,8 @@ export function CccdPage() {
       .from('cccd_data')
       .select('id, cccd_number, full_name, date_of_birth, gender, address, issue_date, created_at')
       .order('created_at', { ascending: false })
-    if (error) {
-      setError(error.message)
-    } else {
-      setRecords(data ?? [])
-    }
+    if (error) setError(error.message)
+    else setRecords(data ?? [])
     setIsLoading(false)
   }
 
@@ -71,6 +146,7 @@ export function CccdPage() {
             <div style={s.list}>
               {records.map(record => (
                 <div key={record.id} style={s.card}>
+                  {/* Tên */}
                   <div
                     style={{ ...s.name, cursor: 'pointer' }}
                     onClick={() => copyField(record.id, 'name', record.full_name.toUpperCase())}
@@ -81,6 +157,8 @@ export function CccdPage() {
                       <span style={s.nameCopied}> ✓ Đã copy</span>
                     )}
                   </div>
+
+                  {/* Các trường cơ bản */}
                   <div style={s.fields}>
                     <CopyField
                       label="Số CCCD"
@@ -118,6 +196,14 @@ export function CccdPage() {
                       />
                     )}
                   </div>
+
+                  {/* Địa giới hành chính mới */}
+                  <NewAddressSection
+                    address={record.address}
+                    recordId={record.id}
+                    copiedKey={copiedKey}
+                    onCopy={copyField}
+                  />
                 </div>
               ))}
             </div>
@@ -128,12 +214,120 @@ export function CccdPage() {
   )
 }
 
+// ─── NewAddressSection ────────────────────────────────────────────────────────
+
+function NewAddressSection({
+  address,
+  recordId,
+  copiedKey,
+  onCopy,
+}: {
+  address: string | null
+  recordId: string
+  copiedKey: string | null
+  onCopy: (id: string, field: string, value: string) => void
+}) {
+  const result = useMemo(() => lookupNewAddress(address), [address])
+  if (!result) return null
+
+  const fullNewAddress = result.tinhMoi && result.xaMoi
+    ? [result.thonCu, result.xaMoi, result.tinhMoi].filter(Boolean).join(', ')
+    : null
+
+  return (
+    <div style={s.newBlock}>
+      <span style={s.newBlockTitle}>Địa chỉ gốc</span>
+      <div style={s.fields}>
+        {result.isConverted ? (
+          <>
+            {result.thonCu && (
+              <CopyField
+                label="Thôn/Xóm cũ"
+                value={result.thonCu}
+                isCopied={copiedKey === `${recordId}-thon-cu`}
+                onClick={() => onCopy(recordId, 'thon-cu', result.thonCu!)}
+              />
+            )}
+            <CopyField
+              label="Xã/Phường cũ"
+              value={result.xaCu}
+              isCopied={copiedKey === `${recordId}-xa-cu`}
+              onClick={() => onCopy(recordId, 'xa-cu', result.xaCu)}
+            />
+            <CopyField
+              label="Huyện cũ"
+              value={result.huyenCu}
+              isCopied={copiedKey === `${recordId}-huyen-cu`}
+              onClick={() => onCopy(recordId, 'huyen-cu', result.huyenCu)}
+            />
+          </>
+        ) : (
+          <>
+            <CopyField
+              label="Khối"
+              value={result.xaCu}
+              isCopied={copiedKey === `${recordId}-xa-cu`}
+              onClick={() => onCopy(recordId, 'xa-cu', result.xaCu)}
+            />
+            <CopyField
+              label="Phường"
+              value={result.huyenCu}
+              isCopied={copiedKey === `${recordId}-huyen-cu`}
+              onClick={() => onCopy(recordId, 'huyen-cu', result.huyenCu)}
+            />
+          </>
+        )}
+        <CopyField
+          label="Tỉnh cũ"
+          value={result.tinhCu}
+          isCopied={copiedKey === `${recordId}-tinh-cu`}
+          onClick={() => onCopy(recordId, 'tinh-cu', result.tinhCu)}
+        />
+      </div>
+      {result.tinhMoi && result.xaMoi && (
+        <>
+          <span style={s.newBlockTitle}>Địa giới hành chính mới</span>
+          <div style={s.fields}>
+            {result.thonMoi && (
+              <CopyField
+                label="Thôn/Xóm mới"
+                value={result.thonMoi}
+                isCopied={copiedKey === `${recordId}-thon-moi`}
+                onClick={() => onCopy(recordId, 'thon-moi', result.thonMoi!)}
+              />
+            )}
+            <CopyField
+              label="Xã/Phường mới"
+              value={result.xaMoi}
+              isCopied={copiedKey === `${recordId}-xa-moi`}
+              onClick={() => onCopy(recordId, 'xa-moi', result.xaMoi!)}
+            />
+            <CopyField
+              label="Tỉnh mới"
+              value={result.tinhMoi}
+              isCopied={copiedKey === `${recordId}-tinh-moi`}
+              onClick={() => onCopy(recordId, 'tinh-moi', result.tinhMoi!)}
+            />
+            {fullNewAddress && (
+              <CopyField
+                label="Địa chỉ mới đầy đủ"
+                value={fullNewAddress}
+                isCopied={copiedKey === `${recordId}-full-moi`}
+                onClick={() => onCopy(recordId, 'full-moi', fullNewAddress)}
+                wide
+              />
+            )}
+          </div>
+        </>
+      )}
+    </div>
+  )
+}
+
+// ─── CopyField ────────────────────────────────────────────────────────────────
+
 function CopyField({
-  label,
-  value,
-  isCopied,
-  onClick,
-  wide = false,
+  label, value, isCopied, onClick, wide = false,
 }: {
   label: string
   value: string
@@ -154,13 +348,10 @@ function CopyField({
   )
 }
 
+// ─── Styles ───────────────────────────────────────────────────────────────────
+
 const s: Record<string, React.CSSProperties> = {
-  page: {
-    minHeight: '100vh',
-    background: '#f0f2f5',
-    display: 'flex',
-    flexDirection: 'column',
-  },
+  page: { minHeight: '100vh', background: '#f0f2f5', display: 'flex', flexDirection: 'column' },
   header: {
     background: '#fff',
     borderBottom: '1px solid #e0e0e0',
@@ -188,84 +379,37 @@ const s: Record<string, React.CSSProperties> = {
   hint: { fontSize: '0.82rem', color: '#aaa', marginBottom: '0.75rem', textAlign: 'center' },
   center: { textAlign: 'center', padding: '3rem', color: '#666' },
   retryBtn: {
-    padding: '0.5rem 1.5rem',
-    borderRadius: '6px',
-    border: 'none',
-    background: '#1a73e8',
-    color: '#fff',
-    cursor: 'pointer',
-    fontSize: '0.875rem',
+    padding: '0.5rem 1.5rem', borderRadius: '6px', border: 'none',
+    background: '#1a73e8', color: '#fff', cursor: 'pointer', fontSize: '0.875rem',
   },
-  list: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.75rem',
-    maxWidth: '760px',
-    margin: '0 auto',
-  },
+  list: { display: 'flex', flexDirection: 'column', gap: '0.75rem', maxWidth: '760px', margin: '0 auto' },
   card: {
-    background: '#fff',
-    borderRadius: '12px',
-    padding: '1rem 1.25rem',
-    boxShadow: '0 1px 4px rgba(0,0,0,0.07)',
-    border: '1px solid #e8e8e8',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.65rem',
+    background: '#fff', borderRadius: '12px', padding: '1rem 1.25rem',
+    boxShadow: '0 1px 4px rgba(0,0,0,0.07)', border: '1px solid #e8e8e8',
+    display: 'flex', flexDirection: 'column', gap: '0.65rem',
   },
-  name: {
-    fontWeight: 800,
-    fontSize: '1.15rem',
-    color: '#1a1a2e',
-    letterSpacing: '0.02em',
-  },
-  fields: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '0.5rem',
-  },
+  name: { fontWeight: 800, fontSize: '1.15rem', color: '#1a1a2e', letterSpacing: '0.02em' },
+  nameCopied: { fontSize: '0.8rem', color: '#1a73e8', fontWeight: 700, marginLeft: '0.5rem' },
+  fields: { display: 'flex', flexWrap: 'wrap', gap: '0.5rem' },
   field: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '0.15rem',
-    padding: '0.5rem 0.75rem',
-    borderRadius: '8px',
-    border: '1px solid #eee',
-    background: '#fafafa',
-    cursor: 'pointer',
-    minWidth: '130px',
+    display: 'flex', flexDirection: 'column', gap: '0.15rem',
+    padding: '0.5rem 0.75rem', borderRadius: '8px',
+    border: '1px solid #eee', background: '#fafafa',
+    cursor: 'pointer', minWidth: '130px',
     transition: 'border-color 0.15s, background 0.15s',
-    position: 'relative',
   },
-  fieldWide: {
-    flex: '1 1 100%',
-  },
-  fieldCopied: {
-    borderColor: '#1a73e8',
-    background: '#e8f0fe',
-  },
+  fieldWide: { flex: '1 1 100%' },
+  fieldCopied: { borderColor: '#1a73e8', background: '#e8f0fe' },
   fieldLabel: {
-    fontSize: '0.72rem',
-    color: '#888',
-    fontWeight: 600,
-    textTransform: 'uppercase',
-    letterSpacing: '0.04em',
+    fontSize: '0.72rem', color: '#888', fontWeight: 600,
+    textTransform: 'uppercase', letterSpacing: '0.04em',
   },
-  fieldValue: {
-    fontSize: '1rem',
-    color: '#1a1a2e',
-    fontWeight: 600,
+  fieldValue: { fontSize: '1rem', color: '#1a1a2e', fontWeight: 600 },
+  copiedMark: { fontSize: '0.72rem', color: '#1a73e8', fontWeight: 700, marginTop: '0.1rem' },
+  newBlock: {
+    background: '#f3e8ff', border: '1px solid #d8b4fe',
+    borderRadius: '10px', padding: '0.65rem 0.85rem',
+    display: 'flex', flexDirection: 'column', gap: '0.5rem',
   },
-  copiedMark: {
-    fontSize: '0.72rem',
-    color: '#1a73e8',
-    fontWeight: 700,
-    marginTop: '0.1rem',
-  },
-  nameCopied: {
-    fontSize: '0.8rem',
-    color: '#1a73e8',
-    fontWeight: 700,
-    marginLeft: '0.5rem',
-  },
+  newBlockTitle: { fontSize: '0.78rem', color: '#7b1fa2', fontWeight: 700 },
 }

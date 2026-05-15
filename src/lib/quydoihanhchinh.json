@@ -1,0 +1,4110 @@
+[
+        {
+            "CODE": "T0540",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Lĩnh",
+            "ThonCu": "xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "xóm 1"
+        },
+        {
+            "CODE": "T0541",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Lĩnh",
+            "ThonCu": "xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "xóm 2"
+        },
+        {
+            "CODE": "T0542",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Lĩnh",
+            "ThonCu": "xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "xóm 4"
+        },
+        {
+            "CODE": "T0543",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Lĩnh",
+            "ThonCu": "xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "xóm 5"
+        },
+        {
+            "CODE": "T0544",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Lĩnh",
+            "ThonCu": "xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "xóm 6"
+        },
+        {
+            "CODE": "T0545",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Tân Long",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Tân Long"
+        },
+        {
+            "CODE": "T0546",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Đình Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Đình Tiến"
+        },
+        {
+            "CODE": "T0547",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Đồng Tân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Đồng Tân"
+        },
+        {
+            "CODE": "T0548",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Yên thọ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Yên thọ"
+        },
+        {
+            "CODE": "T0549",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Xuân Hòa",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Xuân Hòa"
+        },
+        {
+            "CODE": "T0550",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Văn Phong",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Văn Phong"
+        },
+        {
+            "CODE": "T0551",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Phượng Hoàng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Phượng Hoàng"
+        },
+        {
+            "CODE": "T0552",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Long Xá",
+            "ThonCu": "Xóm Thành Sơn",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Thành Sơn"
+        },
+        {
+            "CODE": "T0553",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Xuân Lam 1"
+        },
+        {
+            "CODE": "T0554",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Xuân Lam 2"
+        },
+        {
+            "CODE": "T0555",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm 3"
+        },
+        {
+            "CODE": "T0556",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Xuân Lam 4"
+        },
+        {
+            "CODE": "T0557",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Xuân Lam 5"
+        },
+        {
+            "CODE": "T0558",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Long Giang"
+        },
+        {
+            "CODE": "T0559",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm Hưng Nhân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Hưng Nhân"
+        },
+        {
+            "CODE": "T0560",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm 8"
+        },
+        {
+            "CODE": "T0561",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Xuân Lam",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm 9"
+        },
+        {
+            "CODE": "T0562",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Thành",
+            "ThonCu": "Xóm Phú Hưng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Phú Hưng"
+        },
+        {
+            "CODE": "T0563",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Thành",
+            "ThonCu": "Xóm Phú Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Phú Thành"
+        },
+        {
+            "CODE": "T0564",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Thành",
+            "ThonCu": "Xóm Phú Điền",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Phú Điền"
+        },
+        {
+            "CODE": "T0565",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Thành",
+            "ThonCu": "Xóm Lộc Điền",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Lộc Điền"
+        },
+        {
+            "CODE": "T0566",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Thành",
+            "ThonCu": "Xóm Văn Viên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Văn Viên"
+        },
+        {
+            "CODE": "T0567",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 1"
+        },
+        {
+            "CODE": "T0568",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 2"
+        },
+        {
+            "CODE": "T0569",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 3"
+        },
+        {
+            "CODE": "T0570",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 4"
+        },
+        {
+            "CODE": "T0571",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 5"
+        },
+        {
+            "CODE": "T0572",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 6"
+        },
+        {
+            "CODE": "T0573",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 7"
+        },
+        {
+            "CODE": "T0574",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 8"
+        },
+        {
+            "CODE": "T0575",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Châu Nhân 9"
+        },
+        {
+            "CODE": "T0576",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Châu Nhân",
+            "ThonCu": "Xóm Phú Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Phú Xuân"
+        },
+        {
+            "CODE": "T0577",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 1 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 1"
+        },
+        {
+            "CODE": "T0578",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 2 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 2"
+        },
+        {
+            "CODE": "T0579",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 3 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 3"
+        },
+        {
+            "CODE": "T0580",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 4 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 4"
+        },
+        {
+            "CODE": "T0581",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 5 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 5"
+        },
+        {
+            "CODE": "T0582",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 6 - Hưng Lợi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Lợi 6"
+        },
+        {
+            "CODE": "T0583",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 1 - Hưng Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Phúc 1"
+        },
+        {
+            "CODE": "T0584",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 2 - Hưng Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Phúc 2"
+        },
+        {
+            "CODE": "T0585",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 3 - Hưng Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Phúc 3"
+        },
+        {
+            "CODE": "T0586",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 4 - Hưng Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Phúc 4"
+        },
+        {
+            "CODE": "T0587",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Phúc Lợi",
+            "ThonCu": "Xóm 5 - Hưng Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Phúc 5"
+        },
+        {
+            "CODE": "T0588",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Tân Thành"
+        },
+        {
+            "CODE": "T0589",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Tân Tiến"
+        },
+        {
+            "CODE": "T0590",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Đồng Phú"
+        },
+        {
+            "CODE": "T0591",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Trung Thịnh"
+        },
+        {
+            "CODE": "T0592",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Xuân Am"
+        },
+        {
+            "CODE": "T0593",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xuân Tân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Xuân Tân"
+        },
+        {
+            "CODE": "T0594",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm Mỹ Thượng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Mỹ Thượng"
+        },
+        {
+            "CODE": "T0595",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm Mỹ Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Mỹ Thịnh"
+        },
+        {
+            "CODE": "T0596",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm Mỹ Thanh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Mỹ Thanh"
+        },
+        {
+            "CODE": "T0597",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thịnh Mỹ",
+            "ThonCu": "Xóm Mỹ Giang",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Mỹ Giang"
+        },
+        {
+            "CODE": "T0598",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 1"
+        },
+        {
+            "CODE": "T0599",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 2"
+        },
+        {
+            "CODE": "T0600",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 3"
+        },
+        {
+            "CODE": "T0601",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 4"
+        },
+        {
+            "CODE": "T0602",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 5"
+        },
+        {
+            "CODE": "T0603",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 6"
+        },
+        {
+            "CODE": "T0604",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 7"
+        },
+        {
+            "CODE": "T0605",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Đạo",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Đạo 8"
+        },
+        {
+            "CODE": "T0606",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Làng Trung Thượng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Làng Trung Thượng"
+        },
+        {
+            "CODE": "T0607",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Làng Đông",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Làng Đông"
+        },
+        {
+            "CODE": "T0608",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Làng Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Làng Nam"
+        },
+        {
+            "CODE": "T0609",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Làng Phan",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Làng Phan"
+        },
+        {
+            "CODE": "T0610",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Xóm Hồng Hà",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Hồng Hà"
+        },
+        {
+            "CODE": "T0611",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Xóm Hồng Lịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Hồng Lịnh"
+        },
+        {
+            "CODE": "T0612",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Xóm Hồng Thái",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Hồng Thái"
+        },
+        {
+            "CODE": "T0613",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Thông Tân",
+            "ThonCu": "Xóm Hồng Phong",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN NAM",
+            "ThonMoi": "Xóm Hồng Phong"
+        },
+        {
+            "CODE": "T0614",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 1"
+        },
+        {
+            "CODE": "T0615",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 2"
+        },
+        {
+            "CODE": "T0616",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 3"
+        },
+        {
+            "CODE": "T0617",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 4"
+        },
+        {
+            "CODE": "T0618",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 5"
+        },
+        {
+            "CODE": "T0619",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 6"
+        },
+        {
+            "CODE": "T0620",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 7"
+        },
+        {
+            "CODE": "T0621",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nghĩa",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "LAM THÀNH",
+            "ThonMoi": "Xóm Hưng Nghĩa 8"
+        },
+        {
+            "CODE": "T0622",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Đại Huệ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Đại Huệ"
+        },
+        {
+            "CODE": "T0623",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Khoa Đà",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Khoa Đà"
+        },
+        {
+            "CODE": "T0624",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Phúc Hòa",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Phúc Hòa"
+        },
+        {
+            "CODE": "T0625",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Phúc Long",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Phúc Long"
+        },
+        {
+            "CODE": "T0626",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Hạ Khê",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hạ Khê"
+        },
+        {
+            "CODE": "T0627",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Phúc Điền",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Phúc Điền"
+        },
+        {
+            "CODE": "T0628",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Thượng Khê",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Thượng Khê"
+        },
+        {
+            "CODE": "T0629",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Nam Kẽ Gai",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Nam Kẽ Gai"
+        },
+        {
+            "CODE": "T0630",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Băc kẽ Gai",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Băc kẽ Gai"
+        },
+        {
+            "CODE": "T0631",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Tây",
+            "ThonCu": "Xóm Hưng Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Hưng Thịnh"
+        },
+        {
+            "CODE": "T0632",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 1"
+        },
+        {
+            "CODE": "T0633",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 2"
+        },
+        {
+            "CODE": "T0634",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 3,4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 3,4"
+        },
+        {
+            "CODE": "T0635",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 5"
+        },
+        {
+            "CODE": "T0636",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 6"
+        },
+        {
+            "CODE": "T0637",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 7"
+        },
+        {
+            "CODE": "T0638",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 8"
+        },
+        {
+            "TinhCu": "Nghệ An",
+            "ThonCu": "Xóm 9a",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 9A"
+        },
+        {
+            "CODE": "T0639",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm 9b",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Trung 9A"
+        },
+        {
+            "CODE": "T0640",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm Bùi Hạ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Bùi Hạ"
+        },
+        {
+            "CODE": "T0641",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Trung",
+            "ThonCu": "Xóm Bùi Thượng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Bùi Thượng"
+        },
+        {
+            "CODE": "T0642",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Bắc",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Bắc 1"
+        },
+        {
+            "CODE": "T0643",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Bắc",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Bắc 2"
+        },
+        {
+            "CODE": "T0644",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Bắc",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Bắc 3"
+        },
+        {
+            "CODE": "T0645",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Bắc",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Bắc 4"
+        },
+        {
+            "CODE": "T0646",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Bắc",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Bắc 5"
+        },
+        {
+            "CODE": "T0647",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 1"
+        },
+        {
+            "CODE": "T0648",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 2"
+        },
+        {
+            "CODE": "T0649",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 3"
+        },
+        {
+            "CODE": "T0650",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 4"
+        },
+        {
+            "CODE": "T0651",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 5"
+        },
+        {
+            "CODE": "T0652",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 6"
+        },
+        {
+            "CODE": "T0653",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 7"
+        },
+        {
+            "CODE": "T0654",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Yên Nam",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "YÊN TRUNG",
+            "ThonMoi": "Xóm Hưng Yên Nam 8"
+        },
+        {
+            "CODE": "T0655",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Ngọc Điền"
+        },
+        {
+            "CODE": "T0656",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Thái Linh"
+        },
+        {
+            "CODE": "T0657",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Chi Nê"
+        },
+        {
+            "CODE": "T0658",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Đồng Trưa"
+        },
+        {
+            "CODE": "T0659",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Kỳ Đoài"
+        },
+        {
+            "CODE": "T0660",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Vạc"
+        },
+        {
+            "CODE": "T0661",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Tân Hưng"
+        },
+        {
+            "CODE": "T0662",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Đông Tiến"
+        },
+        {
+            "CODE": "T0663",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Tân Hợp"
+        },
+        {
+            "CODE": "T0664",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Hưng Nguyên",
+            "XaCu": "Hưng Nguyên",
+            "ThonCu": "Khối 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HƯNG NGUYÊN",
+            "ThonMoi": "Xóm Đồng Ang"
+        },
+        {
+            "CODE": "T0261",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn An",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn An 1"
+        },
+        {
+            "CODE": "T0262",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn An",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn An 2"
+        },
+        {
+            "CODE": "T0263",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn An",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diến An 3"
+        },
+        {
+            "CODE": "T0264",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn An",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn An 4"
+        },
+        {
+            "CODE": "T0265",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn An",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn An 5"
+        },
+        {
+            "CODE": "T0266",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Quyết Thắng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Quyết Thắng "
+        },
+        {
+            "CODE": "T0267",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Hải Đông",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Hải Đông"
+        },
+        {
+            "CODE": "T0268",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Hải Trung",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Hải Trung "
+        },
+        {
+            "CODE": "T0269",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Chiến Thắng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Chiến Thắng "
+        },
+        {
+            "CODE": "T0270",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Hải Bắc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Hải Bắc"
+        },
+        {
+            "CODE": "T0271",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Hải Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Hải Nam "
+        },
+        {
+            "CODE": "T0272",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Bắc Chiến Thắng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Bắc Chiến Thắng "
+        },
+        {
+            "CODE": "T0273",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Quyết Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Quyết Thành "
+        },
+        {
+            "CODE": "T0274",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Trung Hồng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Trung Hồng"
+        },
+        {
+            "CODE": "T0275",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Trường Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Trường Tiến"
+        },
+        {
+            "CODE": "T0276",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Trung Yên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Trung Yên"
+        },
+        {
+            "CODE": "T0277",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Nam Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Nam Thịnh"
+        },
+        {
+            "CODE": "T0278",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Yên Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Yên Thịnh"
+        },
+        {
+            "CODE": "T0279",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Ngọc Văn",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Ngọc Văn"
+        },
+        {
+            "CODE": "T0280",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Ngọc Minh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Ngọc Minh"
+        },
+        {
+            "CODE": "T0281",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Tây Lộc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Tây Lộc"
+        },
+        {
+            "CODE": "T0282",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Đông Lộc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Đông Lộc"
+        },
+        {
+            "CODE": "T0283",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Ngọc Bích",
+            "ThonCu": "Yên Quang",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Yên Quang"
+        },
+        {
+            "CODE": "T0284",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Hòa Lạc"
+        },
+        {
+            "CODE": "T0285",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Quảng Phong"
+        },
+        {
+            "CODE": "T0286",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "hà cát"
+        },
+        {
+            "CODE": "T0287",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Hà Trang"
+        },
+        {
+            "CODE": "T0288",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "tân Hương"
+        },
+        {
+            "CODE": "T0289",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "hà tây"
+        },
+        {
+            "CODE": "T0290",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Cát",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "hà đông"
+        },
+        {
+            "CODE": "T0291",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Mỹ Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Mỹ Thành"
+        },
+        {
+            "CODE": "T0292",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Trung Tiến"
+        },
+        {
+            "CODE": "T0293",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Thái Loan",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Thái Loan"
+        },
+        {
+            "CODE": "T0294",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Đại Đồng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Đại Đồng"
+        },
+        {
+            "CODE": "T0295",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Xuân Đường",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xuân Đường"
+        },
+        {
+            "CODE": "T0296",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Bàu Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Bàu Xuân"
+        },
+        {
+            "CODE": "T0297",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Xóm 12",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Cao Minh Nam "
+        },
+        {
+            "CODE": "T0298",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Xóm 13",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Cao Minh Bắc "
+        },
+        {
+            "CODE": "T0299",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đoài",
+            "ThonCu": "Xuân Sơn",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xuân Sơn"
+        },
+        {
+            "CODE": "T0300",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Yên"
+        },
+        {
+            "CODE": "T0301",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Thanh"
+        },
+        {
+            "CODE": "T0302",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Phú"
+        },
+        {
+            "CODE": "T0303",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Giếng Hứng"
+        },
+        {
+            "CODE": "T0304",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Thắng"
+        },
+        {
+            "CODE": "T0305",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Đồng Mỹ"
+        },
+        {
+            "CODE": "T0306",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Đồng",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Văn Hiến"
+        },
+        {
+            "CODE": "T0307",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0308",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0309",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0310",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0311",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0312",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU"
+        },
+        {
+            "CODE": "T0313",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn Hùng Phong",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Thôn Hùng Phong"
+        },
+        {
+            "CODE": "T0314",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn Hùng Nghĩa",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Thôn Hùng Nghĩa"
+        },
+        {
+            "CODE": "T0315",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn Ngọc Mỹ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Thôn Ngọc Mỹ"
+        },
+        {
+            "CODE": "T0316",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hùng Hải",
+            "ThonCu": "Thôn Cự Nại",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Thôn Cự Nại"
+        },
+        {
+            "CODE": "T0317",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 1 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU"
+        },
+        {
+            "CODE": "T0318",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 2 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm1"
+        },
+        {
+            "CODE": "T0319",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 3 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm2"
+        },
+        {
+            "CODE": "T0320",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 4 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm3"
+        },
+        {
+            "CODE": "T0321",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 5 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm4"
+        },
+        {
+            "CODE": "T0322",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 6 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm5"
+        },
+        {
+            "CODE": "T0323",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 7 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm6"
+        },
+        {
+            "CODE": "T0324",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 8 - Diễn Hạnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm7"
+        },
+        {
+            "CODE": "T0325",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 1 - Diễn Quảng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "xóm8"
+        },
+        {
+            "CODE": "T0326",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 2 - Diễn Quảng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xóm 9"
+        },
+        {
+            "CODE": "T0327",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 3 - Diễn Quảng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xóm 10"
+        },
+        {
+            "CODE": "T0328",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 4 - Diễn Quảng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xóm 11"
+        },
+        {
+            "CODE": "T0329",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Hạnh Quảng",
+            "ThonCu": "Xóm 5 - Diễn Quảng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xóm 12"
+        },
+        {
+            "CODE": "T0330",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoa",
+            "ThonCu": "Phượng Lịch (Xóm 1 - Xóm 4)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 13"
+        },
+        {
+            "CODE": "T0331",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoa",
+            "ThonCu": "Tràng khê (Xóm 6 )",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm Phượng Lịch 1 và 2"
+        },
+        {
+            "CODE": "T0332",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoa",
+            "ThonCu": "Trung Hậu (Xóm 7)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm Trung Phường"
+        },
+        {
+            "CODE": "T0333",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Phú Đông",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Phú Đông"
+        },
+        {
+            "CODE": "T0334",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Đông Giai",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Đông Gai"
+        },
+        {
+            "CODE": "T0335",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Phú Yên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Phú Yên"
+        },
+        {
+            "CODE": "T0336",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Trung Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Trung Tiến"
+        },
+        {
+            "CODE": "T0337",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Hoàng La Trung",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Hoàng La Trung"
+        },
+        {
+            "CODE": "T0338",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Hoàng La Đông",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Hoàng La Đông"
+        },
+        {
+            "CODE": "T0339",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Hà Trung",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Hà Trung"
+        },
+        {
+            "CODE": "T0340",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Hà Đông",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Hà Đông"
+        },
+        {
+            "CODE": "T0341",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hoàng",
+            "ThonCu": "Xóm Thanh Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Thanh Nam"
+        },
+        {
+            "CODE": "T0342",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Bắc Hồng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Bắc Hồng"
+        },
+        {
+            "CODE": "T0343",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Ái Quốc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Ái Quốc"
+        },
+        {
+            "CODE": "T0344",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Trung Hồng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Trung Hồng"
+        },
+        {
+            "CODE": "T0345",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Trung Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Trung Thành"
+        },
+        {
+            "CODE": "T0346",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Hoa Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Hoa Thành"
+        },
+        {
+            "CODE": "T0347",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Xuân Đình",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Xuân Đình"
+        },
+        {
+            "CODE": "T0348",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Xóm Hồng Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xóm Hồng Thịnh"
+        },
+        {
+            "CODE": "T0349",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Khối Bắc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Khối Bắc"
+        },
+        {
+            "CODE": "T0350",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Hồng",
+            "ThonCu": "Khối Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Khối Nam"
+        },
+        {
+            "CODE": "T0351",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Đại Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Đại Thành"
+        },
+        {
+            "CODE": "T0352",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Phú Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Phú Thành"
+        },
+        {
+            "CODE": "T0353",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Xuân Châu",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Xuân Châu"
+        },
+        {
+            "CODE": "T0354",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Thái Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Thái Thịnh"
+        },
+        {
+            "CODE": "T0355",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Bắc Tiền Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Bắc Tiền Tiến"
+        },
+        {
+            "CODE": "T0356",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Nam Tiền Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Nam Tiền Tiến"
+        },
+        {
+            "CODE": "T0357",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "Xóm Kim Liên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Kim Liêm"
+        },
+        {
+            "CODE": "T0358",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kim",
+            "ThonCu": "xóm Nam Liên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Xóm Nam Liên"
+        },
+        {
+            "CODE": "T0359",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Hưng Tân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Hưng Tân"
+        },
+        {
+            "CODE": "T0360",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Xuân Khánh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Xuân Khánh"
+        },
+        {
+            "CODE": "T0361",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Đông Trai",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Đông Trai"
+        },
+        {
+            "CODE": "T0362",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Mỹ Lý",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Mỹ Lý"
+        },
+        {
+            "CODE": "T0363",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Đông Kỷ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Đông Kỷ"
+        },
+        {
+            "CODE": "T0364",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thông Đông Kỷ B",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Đông Kỷ B"
+        },
+        {
+            "CODE": "T0365",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Cầu Bùng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Cầu Bùng"
+        },
+        {
+            "CODE": "T0365a",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Kỷ",
+            "ThonCu": "Thôn Tân Trai",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Thôn Tân Trai"
+        },
+        {
+            "CODE": "T0366",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU"
+        },
+        {
+            "CODE": "T0367",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Hạnh Lâm"
+        },
+        {
+            "CODE": "T0368",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Xuân Lâm"
+        },
+        {
+            "CODE": "T0369",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Yên Hậu"
+        },
+        {
+            "CODE": "T0370",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Mặc Tảo"
+        },
+        {
+            "CODE": "T0371",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Yên Lụng"
+        },
+        {
+            "CODE": "T0372",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Khanh Lâm"
+        },
+        {
+            "CODE": "T0373",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Châu Lâm"
+        },
+        {
+            "CODE": "T0374",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Phúc Lâm"
+        },
+        {
+            "CODE": "T0375",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Tân Xuân"
+        },
+        {
+            "CODE": "T0376",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lâm",
+            "ThonCu": "Xóm 11",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Xóm Tháp Ngọc"
+        },
+        {
+            "CODE": "T0377",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 1"
+        },
+        {
+            "CODE": "T0378",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 2"
+        },
+        {
+            "CODE": "T0379",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 3"
+        },
+        {
+            "CODE": "T0380",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 4"
+        },
+        {
+            "CODE": "T0381",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 5"
+        },
+        {
+            "CODE": "T0382",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 6"
+        },
+        {
+            "CODE": "T0383",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 7"
+        },
+        {
+            "CODE": "T0384",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm 8"
+        },
+        {
+            "CODE": "T0385",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Liên",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU"
+        },
+        {
+            "CODE": "T0386",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Vĩnh Yên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Phúc Nhạn "
+        },
+        {
+            "CODE": "T0387",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Xuân Nho",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Vĩnh Yên"
+        },
+        {
+            "CODE": "T0388",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Xuân Tình",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xuân Nho"
+        },
+        {
+            "CODE": "T0389",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Làng Mới",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xuân Tình"
+        },
+        {
+            "CODE": "T0390",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Thượng Lộc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Làng Mới"
+        },
+        {
+            "CODE": "T0391",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Yên Thắng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Thượng Lộc"
+        },
+        {
+            "CODE": "T0392",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Song Tiến",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Yên Thắng"
+        },
+        {
+            "CODE": "T0392a",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lộc",
+            "ThonCu": "Xóm Phúc Nhạn",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Song Tiến"
+        },
+        {
+            "CODE": "T0393",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xóm Cầu"
+        },
+        {
+            "CODE": "T0394",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xóm Vin"
+        },
+        {
+            "CODE": "T0395",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Phúc Lạc"
+        },
+        {
+            "CODE": "T0396",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Quang Trạch"
+        },
+        {
+            "CODE": "T0397",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xuân Sơn"
+        },
+        {
+            "CODE": "T0398",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Lợi",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xuân Phú"
+        },
+        {
+            "CODE": "T0399",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Vạn Thọ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Sào Nam"
+        },
+        {
+            "CODE": "T0400",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Đông Mỹ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Vạn Thọ"
+        },
+        {
+            "CODE": "T0401",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Phúc Thọ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Đông Mỹ"
+        },
+        {
+            "CODE": "T0402",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Mỹ Thượng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Phúc Thọ"
+        },
+        {
+            "CODE": "T0403",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Lập Thành",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Mỹ thượng"
+        },
+        {
+            "CODE": "T0404",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Mỹ",
+            "ThonCu": "Sào Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HẢI CHÂU",
+            "ThonMoi": "Lập Thành"
+        },
+        {
+            "CODE": "T0405",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Tân Cảnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân Cảnh"
+        },
+        {
+            "CODE": "T0406",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Tân Phong",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân Phong"
+        },
+        {
+            "CODE": "T0407",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Hưng Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Hưng Thịnh"
+        },
+        {
+            "CODE": "T0408",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Tân Cao",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân  Cao"
+        },
+        {
+            "CODE": "T0409",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Tân Châu",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân Châu"
+        },
+        {
+            "CODE": "T0410",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Nguyên",
+            "ThonCu": "Tân Ninh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân Ninh"
+        },
+        {
+            "CODE": "T0411",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phong",
+            "ThonCu": "Đông Hồ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Đông Hồ"
+        },
+        {
+            "CODE": "T0412",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phong",
+            "ThonCu": "Vinh Tiên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Vinh Tiên"
+        },
+        {
+            "CODE": "T0413",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phong",
+            "ThonCu": "Nha Nghi",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Nha Nghi"
+        },
+        {
+            "CODE": "T0414",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phong",
+            "ThonCu": "Hướng Dương",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Hướng Dương"
+        },
+        {
+            "CODE": "T0415",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Thanh Nho"
+        },
+        {
+            "CODE": "T0416",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Xuân Dương"
+        },
+        {
+            "CODE": "T0417",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Bắc Sơn"
+        },
+        {
+            "CODE": "T0418",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Trung Sơn"
+        },
+        {
+            "CODE": "T0419",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Nam Sơn"
+        },
+        {
+            "CODE": "T0420",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Song Sơn"
+        },
+        {
+            "CODE": "T0420a",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Bạch Y "
+        },
+        {
+            "CODE": "T0420b",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Bãi Đền"
+        },
+        {
+            "CODE": "T0420c",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Bình Sơn"
+        },
+        {
+            "CODE": "T0420d",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 10",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Vinh Quang"
+        },
+        {
+            "CODE": "T0420e",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 11",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Tân Lâm"
+        },
+        {
+            "CODE": "T0420f",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phú",
+            "ThonCu": "Xóm 12",
+            "TinhMoi": "Nghệ An",
+            "ThonMoi": "Tân Phú"
+        },
+        {
+            "CODE": "T0421",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Tràng Thân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU"
+        },
+        {
+            "CODE": "T0422",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Tân Minh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Tràng Thân"
+        },
+        {
+            "CODE": "T0423",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Tân Đoài",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Tân Minh"
+        },
+        {
+            "CODE": "T0424",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Phúc Thiêm",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Tân Đoài"
+        },
+        {
+            "CODE": "T0425",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Yên Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Phúc Thiêm"
+        },
+        {
+            "CODE": "T0426",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Phúc",
+            "ThonCu": "Phúc Nguyên",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Yên Xuân"
+        },
+        {
+            "CODE": "T0427",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 1"
+        },
+        {
+            "CODE": "T0428",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 2"
+        },
+        {
+            "CODE": "T0429",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 3"
+        },
+        {
+            "CODE": "T0430",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 4"
+        },
+        {
+            "CODE": "T0431",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 5"
+        },
+        {
+            "CODE": "T0432",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 6"
+        },
+        {
+            "CODE": "T0433",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 7"
+        },
+        {
+            "CODE": "T0434",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 8"
+        },
+        {
+            "CODE": "T0435",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Tân",
+            "ThonCu": "Thôn 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Diễn Tân 9"
+        },
+        {
+            "CODE": "T0436",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Bút Trận"
+        },
+        {
+            "CODE": "T0437",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Đức"
+        },
+        {
+            "CODE": "T0438",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Mới"
+        },
+        {
+            "CODE": "T0439",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm Tân Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Nam"
+        },
+        {
+            "CODE": "T0440",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Thư"
+        },
+        {
+            "CODE": "T0441",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Hàng Da"
+        },
+        {
+            "CODE": "T0442",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Tân Hóa"
+        },
+        {
+            "CODE": "T0443",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Quần Phương"
+        },
+        {
+            "CODE": "T0444",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thái",
+            "ThonCu": "Xóm 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Tân Hòa"
+        },
+        {
+            "CODE": "T0445",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU"
+        },
+        {
+            "CODE": "T0446",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 1"
+        },
+        {
+            "CODE": "T0447",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 2"
+        },
+        {
+            "CODE": "T0448",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 3"
+        },
+        {
+            "CODE": "T0449",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 5"
+        },
+        {
+            "CODE": "T0450",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 6"
+        },
+        {
+            "CODE": "T0451",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 7"
+        },
+        {
+            "CODE": "T0452",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 8"
+        },
+        {
+            "CODE": "T0453",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 9"
+        },
+        {
+            "CODE": "T0454",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thành",
+            "ThonCu": "Xóm 11",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "DIỄN CHÂU",
+            "ThonMoi": "Xóm 10"
+        },
+        {
+            "CODE": "T0455",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Song Thịnh"
+        },
+        {
+            "CODE": "T0456",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Thịnh Ngọc"
+        },
+        {
+            "CODE": "T0457",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Tam Ngọc"
+        },
+        {
+            "CODE": "T0458",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Thái Hậu "
+        },
+        {
+            "CODE": "T0459",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Phú Hậu"
+        },
+        {
+            "CODE": "T0460",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Xuân Tháp"
+        },
+        {
+            "CODE": "T0461",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Nam Vang"
+        },
+        {
+            "CODE": "T0462",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm Nam Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Nam Xuân"
+        },
+        {
+            "CODE": "T0463",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm Bắc Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Bắc Xuân"
+        },
+        {
+            "CODE": "T0464",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm Trung Xuân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Trung Xuân"
+        },
+        {
+            "CODE": "T0465",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Xóm Liên Hoa",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Xóm Liên Hoa"
+        },
+        {
+            "CODE": "T0466",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Nam Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU"
+        },
+        {
+            "CODE": "T0467",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Bắc Thịnh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Nam Thịnh"
+        },
+        {
+            "CODE": "T0468",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Thịnh Mỹ",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Bắc Thịnh"
+        },
+        {
+            "CODE": "T0469",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Vinh Quang",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Thịnh Mỹ"
+        },
+        {
+            "CODE": "T0470",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Đức Vinh",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Vinh Quang"
+        },
+        {
+            "CODE": "T0471",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Đức Hậu",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Đức Vinh"
+        },
+        {
+            "CODE": "T0472",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Trung Tân",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Đức Hậu"
+        },
+        {
+            "CODE": "T0473",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Trung song",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Trung Tân"
+        },
+        {
+            "CODE": "T0474",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Tân Phúc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Trung song"
+        },
+        {
+            "CODE": "T0475",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Minh Đức",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Tân Phúc"
+        },
+        {
+            "CODE": "T0476",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Đồng Tâm",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Minh Đức"
+        },
+        {
+            "CODE": "T0477",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thịnh",
+            "ThonCu": "Quyết Tâm",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Đồng Tâm"
+        },
+        {
+            "CODE": "T0478",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Quyết Tâm"
+        },
+        {
+            "CODE": "T0479",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Nhân hòa"
+        },
+        {
+            "CODE": "T0480",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Phương đình"
+        },
+        {
+            "CODE": "T0481",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Thanh kiều"
+        },
+        {
+            "CODE": "T0482",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Sơn đầu"
+        },
+        {
+            "CODE": "T0483",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Nhân mỵ"
+        },
+        {
+            "CODE": "T0484",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Văn lâm"
+        },
+        {
+            "CODE": "T0485",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Thọ",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "TÂN CHÂU",
+            "ThonMoi": "Thị đồng"
+        },
+        {
+            "CODE": "T0486",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "Du đồng"
+        },
+        {
+            "CODE": "T0487",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 1"
+        },
+        {
+            "CODE": "T0488",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 2"
+        },
+        {
+            "CODE": "T0489",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 3"
+        },
+        {
+            "CODE": "T0490",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 4"
+        },
+        {
+            "CODE": "T0491",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 5"
+        },
+        {
+            "CODE": "T0492",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 6"
+        },
+        {
+            "CODE": "T0493",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 7"
+        },
+        {
+            "CODE": "T0494",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 8"
+        },
+        {
+            "CODE": "T0495",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trung",
+            "ThonCu": "Thôn 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "AN CHÂU",
+            "ThonMoi": "xóm 9"
+        },
+        {
+            "CODE": "T0496",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Hợp Thành"
+        },
+        {
+            "CODE": "T0497",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Thịnh Mỹ"
+        },
+        {
+            "CODE": "T0498",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Liên Thắng"
+        },
+        {
+            "CODE": "T0499",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Long Ân"
+        },
+        {
+            "CODE": "T0500",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Bảo Khang"
+        },
+        {
+            "CODE": "T0501",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Yên Thịnh"
+        },
+        {
+            "CODE": "T0502",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Kỳ Ngãi"
+        },
+        {
+            "CODE": "T0503",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Thuận Thành"
+        },
+        {
+            "CODE": "T0504",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Trường",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Tam Hợp"
+        },
+        {
+            "CODE": "T0505",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Vạn Nam",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Vạn Nam"
+        },
+        {
+            "CODE": "T0506",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Trung Hậu",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Trung Hậu"
+        },
+        {
+            "CODE": "T0507",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Đông Phú",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Đông Phú"
+        },
+        {
+            "CODE": "T0508",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Yên Đồng",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Yên Đồng"
+        },
+        {
+            "CODE": "T0509",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Đồng Hà",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Đồng Hà"
+        },
+        {
+            "CODE": "T0510",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Vạn",
+            "ThonCu": "Xuân Bắc",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "ĐỨC CHÂU",
+            "ThonMoi": "Xuân Bắc"
+        },
+        {
+            "CODE": "T0511",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Mỹ Quan Thượng"
+        },
+        {
+            "CODE": "T0512",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Mỹ Quan Trung"
+        },
+        {
+            "CODE": "T0513",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Tân Hợp"
+        },
+        {
+            "CODE": "T0514",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "An Thạch"
+        },
+        {
+            "CODE": "T0515",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Tân An"
+        },
+        {
+            "CODE": "T0516",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Liên Minh"
+        },
+        {
+            "CODE": "T0517",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Hồng Thịnh "
+        },
+        {
+            "CODE": "T0518",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 8",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Linh Khê"
+        },
+        {
+            "CODE": "T0519",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 9",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Yên Lý"
+        },
+        {
+            "CODE": "T0520",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 10",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Yên Cường"
+        },
+        {
+            "CODE": "T0521",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 11",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Yên Phú"
+        },
+        {
+            "CODE": "T0522",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Diễn Yên",
+            "ThonCu": "Xóm 12",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU",
+            "ThonMoi": "Yên Bình"
+        },
+        {
+            "CODE": "T0523",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 1",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "HÙNG CHÂU"
+        },
+        {
+            "CODE": "T0524",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 2",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Đan Trung 1"
+        },
+        {
+            "CODE": "T0525",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 3",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Đan Trung 2"
+        },
+        {
+            "CODE": "T0526",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 4",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Quyết Thắng"
+        },
+        {
+            "CODE": "T0527",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 5",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Ngọc Lâm"
+        },
+        {
+            "CODE": "T0528",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 6",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xuân Viên 1"
+        },
+        {
+            "CODE": "T0529",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Xóm 7",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Xuân Viên 2"
+        },
+        {
+            "CODE": "T0530",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Thôn Vân Tập",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Tân Bình"
+        },
+        {
+            "CODE": "T0531",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Thôn Thanh Luật",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Vân Tập"
+        },
+        {
+            "CODE": "T0532",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Thôn Trung Phường",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Thanh Luật"
+        },
+        {
+            "CODE": "T0533",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Minh Châu",
+            "ThonCu": "Thôn Phú Lâm",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "MINH CHÂU",
+            "ThonMoi": "Trung Phường"
+        },
+        {
+            "CODE": "T0534",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Khối 1 (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Phú Lâm"
+        },
+        {
+            "CODE": "T0535",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Khối 2 (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "khối 1"
+        },
+        {
+            "CODE": "T0536",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Khối 3 (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Khối 2"
+        },
+        {
+            "CODE": "T0537",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Khối 4 (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Khối 3"
+        },
+        {
+            "CODE": "T0538",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Khối 5 (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "khối 4"
+        },
+        {
+            "CODE": "T0539",
+            "TinhCu": "Nghệ An",
+            "HuyenCu": "Diễn Châu",
+            "XaCu": "Xuân Tháp",
+            "ThonCu": "Quyết Thành (TT Diễn Châu)",
+            "TinhMoi": "Nghệ An",
+            "XaMoi": "QUẢNG CHÂU",
+            "ThonMoi": "Khối 5"
+        }
+    ]
