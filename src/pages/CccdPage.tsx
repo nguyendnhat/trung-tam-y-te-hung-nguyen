@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import * as XLSX from 'xlsx'
 import { supabase } from '../lib/supabase'
 import hanhChinhRaw from '../lib/quydoihanhchinh.json'
 
@@ -100,6 +101,18 @@ export function CccdPage() {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [copiedKey, setCopiedKey] = useState<string | null>(null)
+  const [searchInput, setSearchInput] = useState('')
+  const [searchQuery, setSearchQuery] = useState('')
+
+  const filteredRecords = useMemo(() => {
+    if (!searchQuery.trim()) return records
+    const q = searchQuery.trim().toLowerCase()
+    return records.filter(r =>
+      r.full_name.toLowerCase().includes(q) ||
+      r.cccd_number.toLowerCase().includes(q) ||
+      (r.address ?? '').toLowerCase().includes(q)
+    )
+  }, [records, searchQuery])
 
   useEffect(() => { fetchRecords() }, [])
 
@@ -122,6 +135,37 @@ export function CccdPage() {
     })
   }
 
+  function exportToExcel() {
+    const rows = filteredRecords.map(r => {
+      const addr = lookupNewAddress(r.address)
+      const fullNew = addr?.tinhMoi && addr?.xaMoi
+        ? [addr.thonCu, addr.xaMoi, addr.tinhMoi].filter(Boolean).join(', ')
+        : ''
+      return {
+        'Họ tên': r.full_name.toUpperCase(),
+        'Số CCCD': r.cccd_number,
+        'Ngày sinh': r.date_of_birth,
+        'Giới tính': r.gender,
+        'Ngày cấp': r.issue_date ?? '',
+        'Địa chỉ': r.address ?? '',
+        'Thôn/Xóm cũ': addr?.thonCu ?? '',
+        'Xã/Phường cũ': addr?.xaCu ?? '',
+        'Huyện cũ': addr?.isConverted ? (addr.huyenCu ?? '') : '',
+        'Tỉnh cũ': addr?.tinhCu ?? '',
+        'Xã/Phường mới': addr?.xaMoi ?? '',
+        'Tỉnh mới': addr?.tinhMoi ?? '',
+        'Địa chỉ mới đầy đủ': fullNew,
+      }
+    })
+    const ws = XLSX.utils.json_to_sheet(rows)
+    const wb = XLSX.utils.book_new()
+    XLSX.utils.book_append_sheet(wb, ws, 'Danh sách')
+    const fileName = searchQuery
+      ? `danh-sach-benh-nhan-${searchQuery}.xlsx`
+      : 'danh-sach-benh-nhan.xlsx'
+    XLSX.writeFile(wb, fileName)
+  }
+
   return (
     <div style={s.page}>
       <div style={s.header}>
@@ -142,9 +186,31 @@ export function CccdPage() {
           <div style={s.center}>Chưa có dữ liệu CCCD.</div>
         ) : (
           <>
-            <p style={s.hint}>Click vào từng trường để copy</p>
+            <div style={s.searchBar}>
+              <input
+                style={s.searchInput}
+                type="text"
+                placeholder="Tìm theo tên, số CCCD, địa chỉ..."
+                value={searchInput}
+                onChange={e => setSearchInput(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && setSearchQuery(searchInput)}
+              />
+              <button style={s.searchBtn} onClick={() => setSearchQuery(searchInput)}>Tìm kiếm</button>
+              {searchQuery && (
+                <button style={s.clearBtn} onClick={() => { setSearchInput(''); setSearchQuery('') }}>✕</button>
+              )}
+              <button style={s.exportBtn} onClick={exportToExcel}>Xuất Excel</button>
+            </div>
+            {searchQuery && (
+              <p style={s.hint}>
+                {filteredRecords.length === 0
+                  ? 'Không tìm thấy kết quả'
+                  : `${filteredRecords.length} kết quả cho "${searchQuery}"`}
+              </p>
+            )}
+            {!searchQuery && <p style={s.hint}>Click vào từng trường để copy</p>}
             <div style={s.list}>
-              {records.map(record => (
+              {filteredRecords.map(record => (
                 <div key={record.id} style={s.card}>
                   {/* Tên */}
                   <div
@@ -381,6 +447,27 @@ const s: Record<string, React.CSSProperties> = {
   retryBtn: {
     padding: '0.5rem 1.5rem', borderRadius: '6px', border: 'none',
     background: '#1a73e8', color: '#fff', cursor: 'pointer', fontSize: '0.875rem',
+  },
+  searchBar: {
+    display: 'flex', gap: '0.5rem', maxWidth: '760px', margin: '0 auto 0.75rem',
+  },
+  searchInput: {
+    flex: 1, padding: '0.5rem 0.85rem', borderRadius: '8px',
+    border: '1px solid #ccc', fontSize: '0.9rem', outline: 'none',
+  },
+  searchBtn: {
+    padding: '0.5rem 1.1rem', borderRadius: '8px', border: 'none',
+    background: '#1a73e8', color: '#fff', cursor: 'pointer', fontSize: '0.875rem', fontWeight: 600,
+    whiteSpace: 'nowrap' as const,
+  },
+  clearBtn: {
+    padding: '0.5rem 0.75rem', borderRadius: '8px', border: '1px solid #ccc',
+    background: 'none', cursor: 'pointer', fontSize: '0.875rem', color: '#666',
+  },
+  exportBtn: {
+    padding: '0.5rem 1.1rem', borderRadius: '8px', border: 'none',
+    background: '#2e7d32', color: '#fff', cursor: 'pointer', fontSize: '0.875rem', fontWeight: 600,
+    whiteSpace: 'nowrap' as const,
   },
   list: { display: 'flex', flexDirection: 'column', gap: '0.75rem', maxWidth: '760px', margin: '0 auto' },
   card: {
